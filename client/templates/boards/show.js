@@ -1,3 +1,5 @@
-Template.boards.helpers({
-    boards : Boards.getAll()
-});
+if (Meteor.isClient) {
+    Template.boards.helpers({
+        boards: Boards.getAll()
+    });
+}

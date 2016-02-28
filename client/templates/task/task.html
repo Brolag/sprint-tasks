@@ -1,8 +1,13 @@
 <template name="task">
-    <div href="#" class="list-group-item">
+    <div class="list-group-item">
         <p class="list-group-item-text">
-            <a href="#"><span class="text-right glyphicon glyphicon-minus" aria-hidden="true"></span></a>
-            {{name}}
+            <a href="#" class="task-delete" data-id="{{_id}}">
+                <span class="text-right glyphicon glyphicon-minus" aria-hidden="true"></span>
+            </a>
+            <a href="#" class="task-move" data-board="{{board}}" data-id="{{_id}}">
+                <span class="text-right glyphicon glyphicon-arrow-right" aria-hidden="true"></span>
+            </a>
+              | {{name}}
         </p>
     </div>
 </template>

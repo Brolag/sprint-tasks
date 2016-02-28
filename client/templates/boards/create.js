@@ -7,7 +7,7 @@ Template.body.events({
         var task = event.target.task.value;
 
         // Insert a task into the collection
-        Boards.addTask({
+        Tasks.addTasks({
             name : task
         });
 

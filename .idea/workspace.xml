@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfa7d1ee-9763-4a47-8aec-c33643fb5bfc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/boards/boards.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/templates/task/tasks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/collections/tasks.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/boards/create.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client/templates/boards/show.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" afterPath="$PROJECT_DIR$/.idea/libraries/meteor_packages_auto_import_browser.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/task/task.html" afterPath="$PROJECT_DIR$/client/templates/task/task.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/collections/boards.js" afterPath="$PROJECT_DIR$/lib/collections/boards.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/templates/_partials/nav.html" afterPath="$PROJECT_DIR$/client/templates/_partials/nav.html" />
     </list>
     <ignored path="sprint-tasks.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tasks.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tasks.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/collections/tasks.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35205182">
+            <state vertical-scroll-proportion="0.0">
               <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
               <folding />
             </state>
@@ -65,7 +62,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.6153846">
               <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-              <folding />
+              <folding>
+                <marker date="1456702330000" expanded="true" signature="21:532" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="nav.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/templates/_partials/nav.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6923075">
-              <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+            <state vertical-scroll-proportion="0.72540045">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -127,7 +126,6 @@
         <option value="$PROJECT_DIR$/lib/boards.js" />
         <option value="$PROJECT_DIR$/client/templates/boards/show.js" />
         <option value="$PROJECT_DIR$/client/templates/boards/boards.html" />
-        <option value="$PROJECT_DIR$/client/templates/_partials/nav.html" />
         <option value="$PROJECT_DIR$/lib/collections/boards.js" />
         <option value="$PROJECT_DIR$/client/templates/boards/create.js" />
         <option value="$PROJECT_DIR$/client/templates/boards/boards.js" />
@@ -135,6 +133,7 @@
         <option value="$PROJECT_DIR$/client/templates/task/task.html" />
         <option value="$PROJECT_DIR$/client/templates/task/tasks.js" />
         <option value="$PROJECT_DIR$/lib/collections/tasks.js" />
+        <option value="$PROJECT_DIR$/client/templates/_partials/nav.html" />
       </list>
     </option>
   </component>
@@ -284,6 +283,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_partials" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -446,14 +449,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/templates/_partials/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6923075">
-          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/templates/boards/boards.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.18306637">
@@ -490,7 +485,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6153846">
           <caret line="6" column="70" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
-          <folding />
+          <folding>
+            <marker date="1456702330000" expanded="true" signature="21:532" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -504,8 +501,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/collections/tasks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35205182">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/templates/_partials/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72540045">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding />
         </state>
       </provider>

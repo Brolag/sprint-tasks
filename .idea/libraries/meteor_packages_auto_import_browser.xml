@@ -2,12 +2,14 @@
   <library name="meteor-packages-auto-import-browser" type="javaScript">
     <properties>
       <sourceFilesUrls>
+        <item url="file://$USER_HOME$/.meteor/packages/ddp-rate-limiter/1.0.0/web.browser/ddp-rate-limiter.js" />
         <item url="file://$USER_HOME$/.meteor/packages/fastclick/1.0.7/web.browser/pre.js" />
         <item url="file://$USER_HOME$/.meteor/packages/fastclick/1.0.7/web.browser/post.js" />
         <item url="file://$USER_HOME$/.meteor/packages/fastclick/1.0.7/web.browser/fastclick.js" />
         <item url="file://$USER_HOME$/.meteor/packages/geojson-utils/1.0.4/web.browser/geojson-utils.js" />
         <item url="file://$USER_HOME$/.meteor/packages/geojson-utils/1.0.4/web.browser/pre.js" />
         <item url="file://$USER_HOME$/.meteor/packages/geojson-utils/1.0.4/web.browser/post.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/rate-limit/1.0.0/web.browser/rate-limit.js" />
         <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.5/web.browser/scanner.js" />
         <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.5/web.browser/templatetag.js" />
         <item url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.5/web.browser/tokenize.js" />
@@ -26,6 +28,12 @@
         <item url="file://$USER_HOME$/.meteor/packages/launch-screen/1.0.4/web.browser/default-behavior.js" />
         <item url="file://$USER_HOME$/.meteor/packages/launch-screen/1.0.4/web.browser/mobile-launch-screen.js" />
         <item url="file://$USER_HOME$/.meteor/packages/logging/1.0.8/web.browser/logging.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.2/web.browser/url_client.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.2/web.browser/accounts_client.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.2/web.browser/localstorage_token.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.2/web.browser/accounts_common.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.2/web.browser/globals_client.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.2/web.browser/accounts_rate_limit.js" />
         <item url="file://$USER_HOME$/.meteor/packages/mongo-id/1.0.1/web.browser/id.js" />
         <item url="file://$USER_HOME$/.meteor/packages/observe-sequence/1.0.7/web.browser/observe_sequence.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ordered-dict/1.0.4/web.browser/ordered_dict.js" />
@@ -54,6 +62,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/base64/1.0.4/web.browser/base64.js" />
         <item url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/code-generation.js" />
         <item url="file://$USER_HOME$/.meteor/packages/binary-heap/1.0.4/web.browser/min-max-heap.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/localstorage/1.0.5/web.browser/localstorage.js" />
         <item url="file://$USER_HOME$/.meteor/packages/tracker/1.0.9/web.browser/deprecated.js" />
         <item url="file://$USER_HOME$/.meteor/packages/binary-heap/1.0.4/web.browser/min-heap.js" />
         <item url="file://$USER_HOME$/.meteor/packages/tracker/1.0.9/web.browser/tracker.js" />
@@ -79,6 +88,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.4/web.browser/tokens.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.4/web.browser/tojs.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.4/web.browser/preamble.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/service-configuration/1.0.5/web.browser/service_configuration_common.js" />
         <item url="file://$USER_HOME$/.meteor/packages/callback-hook/1.0.4/web.browser/hook.js" />
         <item url="file://$USER_HOME$/.meteor/packages/check/1.1.0/web.browser/match.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/sockjs-0.3.4.js" />
@@ -109,12 +119,14 @@
       </sourceFilesUrls>
     </properties>
     <CLASSES>
+      <root url="file://$USER_HOME$/.meteor/packages/ddp-rate-limiter/1.0.0/web.browser/ddp-rate-limiter.js" />
       <root url="file://$USER_HOME$/.meteor/packages/fastclick/1.0.7/web.browser/pre.js" />
       <root url="file://$USER_HOME$/.meteor/packages/fastclick/1.0.7/web.browser/post.js" />
       <root url="file://$USER_HOME$/.meteor/packages/fastclick/1.0.7/web.browser/fastclick.js" />
       <root url="file://$USER_HOME$/.meteor/packages/geojson-utils/1.0.4/web.browser/geojson-utils.js" />
       <root url="file://$USER_HOME$/.meteor/packages/geojson-utils/1.0.4/web.browser/pre.js" />
       <root url="file://$USER_HOME$/.meteor/packages/geojson-utils/1.0.4/web.browser/post.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/rate-limit/1.0.0/web.browser/rate-limit.js" />
       <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.5/web.browser/scanner.js" />
       <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.5/web.browser/templatetag.js" />
       <root url="file://$USER_HOME$/.meteor/packages/html-tools/1.0.5/web.browser/tokenize.js" />
@@ -133,6 +145,12 @@
       <root url="file://$USER_HOME$/.meteor/packages/launch-screen/1.0.4/web.browser/default-behavior.js" />
       <root url="file://$USER_HOME$/.meteor/packages/launch-screen/1.0.4/web.browser/mobile-launch-screen.js" />
       <root url="file://$USER_HOME$/.meteor/packages/logging/1.0.8/web.browser/logging.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.2/web.browser/url_client.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.2/web.browser/accounts_client.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.2/web.browser/localstorage_token.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.2/web.browser/accounts_common.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.2/web.browser/globals_client.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/accounts-base/1.2.2/web.browser/accounts_rate_limit.js" />
       <root url="file://$USER_HOME$/.meteor/packages/mongo-id/1.0.1/web.browser/id.js" />
       <root url="file://$USER_HOME$/.meteor/packages/observe-sequence/1.0.7/web.browser/observe_sequence.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ordered-dict/1.0.4/web.browser/ordered_dict.js" />
@@ -161,6 +179,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/base64/1.0.4/web.browser/base64.js" />
       <root url="file://$USER_HOME$/.meteor/packages/templating-tools/1.0.0/web.browser/code-generation.js" />
       <root url="file://$USER_HOME$/.meteor/packages/binary-heap/1.0.4/web.browser/min-max-heap.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/localstorage/1.0.5/web.browser/localstorage.js" />
       <root url="file://$USER_HOME$/.meteor/packages/tracker/1.0.9/web.browser/deprecated.js" />
       <root url="file://$USER_HOME$/.meteor/packages/binary-heap/1.0.4/web.browser/min-heap.js" />
       <root url="file://$USER_HOME$/.meteor/packages/tracker/1.0.9/web.browser/tracker.js" />
@@ -186,6 +205,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.4/web.browser/tokens.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.4/web.browser/tojs.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze-tools/1.0.4/web.browser/preamble.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/service-configuration/1.0.5/web.browser/service_configuration_common.js" />
       <root url="file://$USER_HOME$/.meteor/packages/callback-hook/1.0.4/web.browser/hook.js" />
       <root url="file://$USER_HOME$/.meteor/packages/check/1.1.0/web.browser/match.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/sockjs-0.3.4.js" />
